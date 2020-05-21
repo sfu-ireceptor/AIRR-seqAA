@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # script version number to help server side debugging later
 VERSION=1
