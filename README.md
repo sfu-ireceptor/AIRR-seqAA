@@ -53,3 +53,5 @@ Critical relevant information:
 
 * [iReceptor’s local cache](https://github.com/sfu-ireceptor/sandbox/tree/master/Adaptive) of Adaptive’s web API helper scripts, documentation, and example data.
 
+![](LogosTo.png)
+
