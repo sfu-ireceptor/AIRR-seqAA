@@ -1,0 +1,14 @@
+# Important Resource
+
+Important relevant information:
+- The AIRR Community’s Repertoire data format specification.
+    - This is the TARGET FORMAT for the project
+    - https://docs.airr-community.org/en/latest/datarep/metadata.html#file-format-specification
+- Adaptive’s ImmunoSeq web portal
+    - https://clients.adaptivebiotech.com/login
+- Documentation of the Adaptive Web API.
+    - Adaptive Help site (https://clients.adaptivebiotech.com/help)
+    - Type “web api” in the text box
+    - Look at “The immunoSEQ REST API: documentation” and “The immunoSEQ REST API: example scripts”
+- Local cache of Adaptive’s web API helper scripts, documentation, and example data.
+    - See "adaptive" folde in github
