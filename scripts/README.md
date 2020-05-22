@@ -1,3 +1,3 @@
 # Scripting
 
-Keep .py and .sh scripts (document) here)
+Keep .py and .sh scripts (document) here.
