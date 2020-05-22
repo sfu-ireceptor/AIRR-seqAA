@@ -2,10 +2,10 @@
 
 (a.k.a. AIRR-seq Adaptive Adapter) 
 
-Team Lead: Brian Corrie
 
 Team Members (by last name)
 
+- Brian Corrie
 - Laura Gutierrez Funderburk 
 - Nikole Knoetze
 - Artem Kushner
