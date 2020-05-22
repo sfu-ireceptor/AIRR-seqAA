@@ -6,6 +6,8 @@ Critical relevant information:
 
 * The AIRR Community’s [Repertoire](https://docs.airr-community.org/en/latest/datarep/metadata.html#file-format-specification) data format specification.
     * This is the TARGET FORMAT for the project
+    * [AIRR Minimal Standard data elements](https://docs.airr-community.org/en/latest/miairr/data_elements.html#miairr-elements)
+    * [AIRR YAML Spec for Reperotires](https://github.com/airr-community/airr-standards/blob/master/specs/airr-schema.yaml)
     
 * Adaptive’s [ImmunoSeq web portal](https://clients.adaptivebiotech.com/login)
 
