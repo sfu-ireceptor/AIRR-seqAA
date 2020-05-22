@@ -6,7 +6,8 @@
 Team Members (by last name)
 
 - Brian Corrie
-- Laura Gutierrez Funderburk 
+- Michael R. Crusoe, VU Amsterdam, DTL Projects (ELIXIR-NL)
+- Laura Gutierrez Funderburk, Simon Fraser University 
 - Nikole Knoetze
 - Artem Kushner
 - Akiff Manji
