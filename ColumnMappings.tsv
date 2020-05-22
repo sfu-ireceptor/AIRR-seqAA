@@ -1,5 +1,5 @@
-Adaptive-name AIRR-name Adaptive-example  AIRR-example
-sample_name sample_id Healthy_Subject_10_CD8_Naive  Healthy_Subject_10_CD8_Naive
-species species.id  Human NCBITAXON:9606
-species species.label Human Homo Sapiens
-locus pcr_target_locus  TCRB  TRB
+Adaptive-name	AIRR-name	Adaptive-example	AIRR-example
+sample_name	sample_id	Healthy_Subject_10_CD8_Naive	Healthy_Subject_10_CD8_Naive
+species	species.id	Human	NCBITAXON:9606
+species	species.label	Human	Homo Sapiens
+locus	pcr_target_locus	TCRB	TRB
