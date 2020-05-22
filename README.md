@@ -4,10 +4,13 @@
 
 Team Lead: Brian Corrie
 
-Team Members: 
+Team Members (by last name)
 
-- Laura Gutierrez Funderburk @lfunderburk
-- Nikole 
+- Laura Gutierrez Funderburk 
+- Nikole Knoetze
+- Artem Kushner
+- Akiff Manji
+
 
 Project video below.
 
