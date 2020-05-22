@@ -46,7 +46,7 @@ The challenge, if you choose to accept it, is to convert Adaptive’s sample met
 
 5. [Install an iReceptor Turnkey on CC VM](https://github.com/sfu-ireceptor/AIRR-seqAA/issues/4)
 
-6. [Load trasnformed ImmunoSeq data into iReceptor Turnkey](https://github.com/sfu-ireceptor/AIRR-seqAA/issues/6)
+6. [Load transformed ImmunoSeq data into iReceptor Turnkey](https://github.com/sfu-ireceptor/AIRR-seqAA/issues/6)
 
 
 ## Relevant Information
@@ -65,6 +65,8 @@ Critical relevant information:
     * Look at “The immunoSEQ REST API: documentation” and “The immunoSEQ REST API: example scripts”
 
 * [iReceptor’s local cache](https://github.com/sfu-ireceptor/sandbox/tree/master/Adaptive) of Adaptive’s web API helper scripts, documentation, and example data.
+
+For more information about iReceptor, checkout the [iReceptor](http://ireceptor.irmacs.sfu.ca/) and [iReceptor Plus](https://www.ireceptor-plus.com/) websites. 
 
 ![](LogosTo.png)
 
