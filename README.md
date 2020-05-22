@@ -36,6 +36,19 @@ The challenge, if you choose to accept it, is to convert Adaptive’s sample met
 
 ## The Process
 
+1. Find a study on ImmunoSeq to use as a test case
+
+2. Create a mapping from ImmunoSeq to AIRR metadata 
+
+3. Develop code to translate ImmunoSeq metadata to AIRR Repertoire metadata
+
+4. Develop pipeline to download data from ImmunoSeq study and transform using code in step 3
+
+5. Install an iReceptor Turnkey on CC VM
+
+6. Load trasnformed ImmunoSeq data into iReceptor Turnkey
+
+
 ## Relevant Information
 
 Critical relevant information:
