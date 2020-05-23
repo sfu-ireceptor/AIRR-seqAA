@@ -2,11 +2,11 @@ Adaptive-key	AIRR-name	Adaptive-example	AIRR-example	Comments
 Cluster of Differentiation (CD)	cell_phenotype	Cluster of Differentiation (CD):CD62L+,Cluster of Differentiation (CD):CD8+	CD62L+,CD8+	NA
 Age	age_min, age_max, age_unit.id, age_unit.label	Age:4 years	4,4,UO:0000036,year	NA
 Age (Range)	age_min, age_max, age_unit.id, age_unit.label	Age (Range):4-10 years	4,10,UO:0000036,year	NA
-Diseases	disease_diagnosis.id, disease_diagnosis.label	multiple myeloma	DOID:9538,multiple myeloma	NA
+Diseases	disease_diagnosis.id, disease_diagnosis.label	multiple myeloma	DOID:9538,multiple myeloma	grep for disease
+Nervous System Diseases	disease_diagnosis.id, disease_diagnosis.label	Multiple Sclerosis	DOID:2377,multiple sclerosis	grep for disease
 Biological Sex	sex	Bilogocial Sex:Male	male	NA
 Subject	subject_id	Subject: Subject 01	Subject 01	NA
 Subject	NA	Subject:Control	String	Control cannot reflect a disease as there is no Ontology ID for Disease/Control
 Tissue Source	tissue	Tissue Source:PBMC	UBERON:0000178	NA
 Tissue Source	cell_subset	Tissue Source:Memory T cells	CL_0000813	NA
 Tissue Source	NA	Tissue Source:Tumor	String	Need a way to reflect if a sample is Control/tumor. this can be at the sample level AND the subject level..
-Nervous System Diseases	Disease	Multiple Sclerosis	DOID:2377	NA
