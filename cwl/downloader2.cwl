@@ -45,7 +45,7 @@ stdin: $(inputs.query.path)
 
 arguments: [ analyzer, $(inputs.workspace), $(inputs.project) ]
 
-stdout: results.tsv
+stdout: $(inputs.project).tsv
 
 outputs:
   results:
@@ -53,7 +53,7 @@ outputs:
     streamable: True
     format: iana:text/tab-separated-values
     outputBinding:
-      glob: results.tsv
+      glob: $(inputs.project).tsv
 
 $namespaces:
   iana: https://www.iana.org/assignments/media-types/
