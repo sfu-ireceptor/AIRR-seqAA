@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Authors: Artem Kushner, Laura Gutierrez Funderburk
 # Date created: May 22 2020
 # Date last modified: May 22 2020
