@@ -1,0 +1,12 @@
+Adaptive-name	AIRR-name	Adaptive-example	AIRR-example	Adaptive-description	AIRR-description
+sample_name	sample_id	Healthy_Subject_10_CD8_Naive	Healthy_Subject_10_CD8_Naive	An identifying name associated with a sample. Sample names are unique within a workspace	Sample ID assigned by submitter, unique within study
+species	species.id	Human	NCBITAXON:9606	Binomial designation of subject’s species	The animals species for which a particular immunosequencing assay was designed.
+species	species.label	Human	Homo Sapiens	Binomial designation of subject’s species	The animals species for which a particular immunosequencing assay was designed.
+locus	pcr_target_locus	TCRB	TCRB	The locus targeted for sequencing. For immunoSEQ, some examples are: TCRAD, TCRG, TCRB, IGH	Designation of the target locus. Note that this field uses a controlled vocubulary that is meant to provide a generic classification of the locus, not necessarily the correct designation according to a specific nomenclature.
+counting_method	software_versions	v1	string	A label that identifies the chemistry used to amplify immune sequences	Version number and / or date, include company pipelines
+test_name	sequencing_platform	immunoSEQ hsTCRB Kit	immunoSEQ hsTCRB Kit	The immunosequencing assay that was performed	Designation of sequencing instrument used
+primer_set	NA	Human-TCRB-PD1x	NA	String	A label that identifies the chemistry used to amplify immune sequences.
+product_subtype	sequencing_kit	Deep	String	Type of assay. For immunoSEQ service this refers to sequencing resolution and is one of Survey, Deep, Ultra Deep or Max Depth. It may also identify immunoSEQ kit or other products.	Name, manufacturer, order and lot numbers of sequencing kit
+kit_id	library_generation_kit_version	NA	String		When using a library generation protocol from a commercial provider, provide the protocol version number
+sample_amount_ng	template_amount	INT/String	String	The mass of input material (DNA) in the sample, measured in nanograms. This value is reported only when it can be accurately measured by the immunoSEQ assay.	Amount of template that went into the process
+total_t_cells	cell_number	123	123	The total number of T cells in a sample as detected by the assay. This value is not available for all assays	Total number of cells that went into the experiment
