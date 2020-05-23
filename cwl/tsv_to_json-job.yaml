@@ -1,0 +1,4 @@
+tsv:
+  class: File
+  path: ../adaptive/iseq/5eaca36e-c0b9-4be5-aeaa-bc1d230af791.samples.tsv
+  format: iana:text/tab-separated-values
