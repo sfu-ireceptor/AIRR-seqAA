@@ -8,6 +8,7 @@ Critical relevant information:
     * This is the TARGET FORMAT for the project
     * [AIRR Minimal Standard data elements](https://docs.airr-community.org/en/latest/miairr/data_elements.html#miairr-elements)
     * [AIRR YAML Spec for Reperotires](https://github.com/airr-community/airr-standards/blob/master/specs/airr-schema.yaml)
+    * [Example AIRR JSON Repertoire file](https://github.com/sfu-ireceptor/dataloading-curation/blob/master/test/airr_repertoire/florian.airr.1.json) - This is what the output of the JSON converter should look like.
     
 * Adaptive’s [ImmunoSeq web portal](https://clients.adaptivebiotech.com/login)
 
