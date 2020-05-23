@@ -27,7 +27,7 @@ if [ "$CFG_USER" == "" ]; then
 	echo "    PROJECT is a project UUID or name within WORKSPACE"
 	echo "    QUERY is either query text (probably want single quotes) or leave blank to read from stdin"
 
-	exit
+	exit 1
 fi
 
 CFG_WORKSPACE=$2
