@@ -8,7 +8,7 @@ Team Members (by last name)
 - Brian Corrie
 - Michael R. Crusoe, VU Amsterdam, DTL Projects (ELIXIR-NL)
 - Laura Gutierrez Funderburk, Simon Fraser University, Department of Mathematics
-- Nikole Knoetze, University of British Columbia, Bioinformatics Department
+- Nicole Knoetze, University of British Columbia, Bioinformatics Department
 - Artem Kushner, University of British Columbia, Mathematics Deptartment
 - Akiff Manji
 
