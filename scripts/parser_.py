@@ -50,13 +50,22 @@ if __name__ == "__main__":
     options = getArguments()
     tsv_file = options.TSV_file
     mapp_f = options.map_file
-    mapp_f = options.tag_file
+    tagg_f = options.tag_file
     
     
     # Store as pandas dataframe
     mapping_df = pd.read_csv(mapp_f,sep="\t")
     tagging_df = pd.read_csv(tagg_f,sep="\t")
     tsv_immonuseq = pd.read_csv(tsv_file,sep="\t")
+    
+    print("Mapping")
+    display(mapping_df.head())
+    
+    print("Tagging")
+    display(tagging_df.head())
+    
+    print("ImmunoSeq DF")
+    display(tsv_immonuseq.head())
 
     # explore entries in sample_catalog_tags
     values = []
