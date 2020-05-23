@@ -34,6 +34,8 @@ for entry in ssentries:
 with open('transformed_first-pass.json', 'w') as outfile:
     json.dump(processed, outfile)
 
+outfile.close()
+
 # TODO:
 # 1.Whatever can be extracted automatically is extracted automatically to 'airr_compliant'
 # 2.The rest is sent to be curated at the command line with regex search for likely matches in the target schema:

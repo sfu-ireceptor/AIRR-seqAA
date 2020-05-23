@@ -14,20 +14,20 @@ def map_species(kvpair):
     species = str.upper(kvpair[1])
 
     taxonomicIds = {
-        "HUMAN": ("Homo Sapiens", 9606),
-        "MOUSE": ("Mus musacris", 10090),
-        "ZEBRAFISH": ("Danio rerio", 7955),
-        "E. COLI": ("Escherichia coli", 562),
-        "FRUITFLY": ("Drosophilia melanogaster", 7227),
-        # ...       : ...
+          "HUMAN"    : ("Homo Sapiens", 9606),
+          "MOUSE"    : ("Mus musacris", 10090),
+          "ZEBRAFISH": ("Danio rerio", 7955),
+          "E. COLI"  : ("Escherichia coli", 562),
+          "FRUITFLY" : ("Drosophilia melanogaster", 7227),
+        # ...        : ...
     }
 
     return [
         {
-            "species.id": taxonomicIds[species][1]
+            "species.id"    : taxonomicIds[species][1]
         },
         {
-            "species.label": taxonomicIds[species][0]
+            "species.label" : taxonomicIds[species][0]
         }
     ]
 
