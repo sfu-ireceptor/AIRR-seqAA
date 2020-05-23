@@ -5,12 +5,12 @@
 
 Team Members (by last name)
 
-- Brian Corrie
+- Brian Corrie, Technical Director, iReceptor, Simon Fraser University
 - [Michael R. Crusoe](https://orcid.org/0000-0002-2961-9670), VU Amsterdam, DTL Projects (ELIXIR-NL)
 - Laura Gutierrez Funderburk, Simon Fraser University, Department of Mathematics
 - Nicole Knoetze, University of British Columbia, Bioinformatics Department
 - Artem Kushner, University of British Columbia, Mathematics Deptartment
-- Akiff Manji
+- Akiff Manji, University of British Columbia
 
 
 Project video below.
