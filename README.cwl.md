@@ -41,3 +41,5 @@ cwltool --enable-ext cwl/id_to_json_workflow2.cwl --username m.r.crusoe@vu.nl \
   --project 5eaca36e-c0b9-4be5-aeaa-bc1d230af791 \
   --query adaptive/iseq/export_all_samples.sql
 ```
+
+About CWL Viewer [https://github.com/common-workflow-language/cwlviewer/blob/master/NOTICE.md](https://github.com/common-workflow-language/cwlviewer/blob/master/NOTICE.md) under [Apache license](http://www.apache.org/licenses/LICENSE-2.0)
