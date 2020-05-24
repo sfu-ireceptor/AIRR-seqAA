@@ -6,6 +6,7 @@
 import pandas as pd
 import sys
 import argparse
+from IPython.display import display
 
 def map_species(kvpair):
     # Would be great to have a reliable mapping betwen a common name to the taxonomic identifiers
