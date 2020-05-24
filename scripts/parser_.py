@@ -61,6 +61,11 @@ def getArguments():
         help="Indicate the full path to where the tagging file is found"
     )
     
+    parser.add_argument(
+        "study_id",
+        help="Indicate the study id"
+    )
+    
     # Verbosity flag
     parser.add_argument(
         "-v",
@@ -80,7 +85,7 @@ if __name__ == "__main__":
     tsv_file = options.TSV_file
     mapp_f = options.map_file
     tagg_f = options.tag_file
-    
+    study_id = options.study_id
     
     # Store as pandas dataframe
     mapping_df = pd.read_csv(mapp_f,sep="\t")
@@ -139,3 +144,4 @@ if __name__ == "__main__":
     print("Converted ImmunoSeq DF")
     display(tsv_immonuseq.head())
 
+    tsv_immonuseq.to_csv(str(study_id) + ".tsv",sep="\t")
