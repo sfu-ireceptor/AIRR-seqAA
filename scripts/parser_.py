@@ -52,13 +52,13 @@ def getArguments():
     # Mapping Directory - where mapping file will be stored 
     parser.add_argument(
         "map_file",
-        help="Indicate the full path to where the TSV from adaptive file is found"
+        help="Indicate the full path to where the mapping file is found"
     )
     
     # TAG Directory - where tagging file will be stored 
     parser.add_argument(
         "tag_file",
-        help="Indicate the full path to where the TSV from adaptive file is found"
+        help="Indicate the full path to where the tagging file is found"
     )
     
     # Verbosity flag
