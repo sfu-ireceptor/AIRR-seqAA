@@ -1,11 +1,40 @@
 #!/usr/bin/env python
-# Authors: Nicole Knoetze, Laura Gutierrez Funderburk
+# Authors: Artem Kushner, Nicole Knoetze, Laura Gutierrez Funderburk
 # Date created: May 23 2020
-# Date last modified: May 23 2020
+# Date last modified: May 24 2020
 
 import pandas as pd
 import sys
 import argparse
+
+def map_species(kvpair):
+    # Would be great to have a reliable mapping betwen a common name to the taxonomic identifiers
+    # Doing just human for now.
+
+    species = str.upper(kvpair)
+
+    taxonomicIds = {
+          "HUMAN"    : ("Homo Sapiens", 9606),
+          "MOUSE"    : ("Mus musacris", 10090),
+          "ZEBRAFISH": ("Danio rerio", 7955),
+          "E. COLI"  : ("Escherichia coli", 562),
+          "FRUITFLY" : ("Drosophilia melanogaster", 7227),
+        # ...        : ...
+    }
+
+    if str.upper(species) in taxonomicIds.keys():
+        return [
+            {
+                "species.id": taxonomicIds[species][1]
+            },
+            {
+                "species.label": taxonomicIds[species][0]
+            }
+        ]
+    else:
+        print(
+            "Species [ {} ] does not have a defined mapping to id/tax.".format(species))
+        return 1
 
 def getArguments():
     # Set up the command line parser
@@ -59,7 +88,7 @@ if __name__ == "__main__":
     tsv_immonuseq = pd.read_csv(tsv_file,sep="\t")
     
     print("Mapping")
-    display(mapping_df.head())
+    display(mapping_df)
     
     print("Tagging")
     display(tagging_df.head())
@@ -67,10 +96,46 @@ if __name__ == "__main__":
     print("ImmunoSeq DF")
     display(tsv_immonuseq.head())
 
-    # explore entries in sample_catalog_tags
-    values = []
-    for item in tsv_immonuseq["sample_catalog_tags"].to_list():
-        #print(item.split("Cluster of Differentiation (CD):"))
-        values.append(item.split("Cluster of Differentiation (CD):")[1:3])
+    taxonomicIds = {
+          "HUMAN"    : ("Homo Sapiens", 9606),
+          "MOUSE"    : ("Mus musacris", 10090),
+          "ZEBRAFISH": ("Danio rerio", 7955),
+          "E. COLI"  : ("Escherichia coli", 562),
+          "FRUITFLY" : ("Drosophilia melanogaster", 7227),
+        # ...        : ...
+    }
+    
+    
+    # rename columns using mapping
+    new_col_dic = {}
 
-        # NEED TO SPLIT VALUES INTO APPROPRIATE AIRR NAME
+    for item in mapping_df["Adaptive-name"].to_list():
+        if type(mapping_df[mapping_df["Adaptive-name"]==item]["AIRR-name"].to_list()[0])==float:
+            continue
+        else:
+            new_col_dic[item] = (mapping_df[mapping_df["Adaptive-name"]==item]["AIRR-name"].to_list()[0])
+
+    new_col_dic["sample_id"] ="_id"
+    
+    # handle species tagging 
+    species_id = []
+    species_label = []
+    for item in tsv_immonuseq["species"].to_list():
+
+        species_id.append(map_species(item)[0]["species.id"])
+        species_label.append(map_species(item)[1]['species.label'])
+
+    tsv_immonuseq["species.id"] = species_id
+
+    tsv_immonuseq["species.label"] = species_label
+    
+    # column renaming
+    # drop species
+    tsv_immonuseq = tsv_immonuseq.drop(['species'], axis=1)
+    
+    # rename others
+    tsv_immonuseq = tsv_immonuseq.rename(columns=new_col_dic)
+    
+    print("Converted ImmunoSeq DF")
+    display(tsv_immonuseq.head())
+
