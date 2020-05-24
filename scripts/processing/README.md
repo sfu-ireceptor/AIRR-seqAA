@@ -20,6 +20,10 @@ Keep .py and .sh scripts (document) here.
     optional arguments:
       -h, --help     show this help message and exit
       -v, --verbose  Run the program in verbose mode.
+
+Example
+
+    python3 parser_.py "./5eaca36e-c0b9-4be5-aeaa-bc1d230af791.samples.tsv" "./Mapping_Files/NK_ColumnMappings.tsv" "./Mapping_Files/NK_TagMappings.tsv" "5eaca36e-c0b9-4be5-aeaa-bc1d230af791"
       
 ### tsv_to_json.py
 
