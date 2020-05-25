@@ -15,7 +15,7 @@ Team Members (by last name)
 
 Project video below.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/oJaGrAyqDMY/0.jpg)](https://www.youtube.com/watch?v=oJaGrAyqDMY)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/GBm1YH1sP3k/0.jpg)](https://www.youtube.com/watch?v=GBm1YH1sP3k)
 
 ## About the Project
 
