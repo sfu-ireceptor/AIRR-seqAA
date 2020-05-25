@@ -58,5 +58,5 @@ The challenge, if you choose to accept it, is to convert Adaptive’s sample met
 
 For more information about iReceptor, checkout the [iReceptor](http://ireceptor.irmacs.sfu.ca/) and [iReceptor Plus](https://www.ireceptor-plus.com/) websites. 
 
-![](LogosTo.png)
+![](airr-ir-irplus.png)
 
