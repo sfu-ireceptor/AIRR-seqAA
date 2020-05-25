@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Authors: Artem Kushner, Nicole Knoetze, Laura Gutierrez Funderburk
 # Date created: May 23 2020
 # Date last modified: May 24 2020
@@ -6,6 +6,7 @@
 import pandas as pd
 import sys
 import argparse
+from IPython.display import display
 
 def map_species(kvpair):
     # Would be great to have a reliable mapping betwen a common name to the taxonomic identifiers

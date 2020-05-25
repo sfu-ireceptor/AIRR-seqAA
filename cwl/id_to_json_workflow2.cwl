@@ -21,9 +21,13 @@ inputs:
   query:
     type: File
     label: SQL query to run
+  mapping:
+    type: File
+  tags:
+    type: File
 
 steps:
-  download_project:
+  download_adaptive_study:
     run: downloader2.cwl
     in:
       username: username
@@ -32,17 +36,25 @@ steps:
       project: project
       query: query
     out: [ results ]
-  convert_to_JSON:
+  map_adaptive_to_AIRR:
+    run: mapping.cwl
+    in:
+      tsv: download_adaptive_study/results
+      mapping: mapping
+      tags: tags
+      study_id: project
+    out: [ results ]
+  convert_to_AIRR_Repertoire_JSON:
     run: tsv_to_json.cwl
     in:
-      tsv: download_project/results
+      tsv: map_adaptive_to_AIRR/results
     out: [ json ]
 
 outputs:
   results:
     type: File
     format: iana:application/json
-    outputSource: convert_to_JSON/json
+    outputSource: convert_to_AIRR_Repertoire_JSON/json
  
 $namespaces:
   iana: https://www.iana.org/assignments/media-types/

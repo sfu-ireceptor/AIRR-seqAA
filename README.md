@@ -45,7 +45,7 @@ The challenge, if you choose to accept it, is to convert Adaptive’s sample met
 
 4. [Develop pipeline to download data from ImmunoSeq study and transform using code in step 3](https://github.com/sfu-ireceptor/AIRR-seqAA/issues/5)
 
-   [![Visualization of the pipeline so far using CWL](https://view.commonwl.org/graph/png/github.com/sfu-ireceptor/AIRR-seqAA/blob/4b98ab2f65e2d4f68bd05d5719eadbbad14e94e1/cwl/id_to_json_workflow2.cwl)](https://view.commonwl.org/workflows/github.com/sfu-ireceptor/AIRR-seqAA/blob/4b98ab2f65e2d4f68bd05d5719eadbbad14e94e1/cwl/id_to_json_workflow2.cwl)
+   [![Visualization of the pipeline so far using CWL](https://view.commonwl.org/graph/png/github.com/sfu-ireceptor/AIRR-seqAA/blob/d02d2e42ee53055708b6ea0a921a34a2ca77cbf6/cwl/id_to_json_workflow2.cwl)](https://view.commonwl.org/workflows/github.com/sfu-ireceptor/AIRR-seqAA/blob/d02d2e42ee53055708b6ea0a921a34a2ca77cbf6/cwl/id_to_json_workflow2.cwl)
    
    The pipeline so far. Instructions are in [README.cwl.md](https://github.com/sfu-ireceptor/AIRR-seqAA/blob/master/README.cwl.md)
 
